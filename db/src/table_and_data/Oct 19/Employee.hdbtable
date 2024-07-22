@@ -11,4 +11,5 @@ COLUMN TABLE "employee" (
 "modified_by" BIGINT ,
 "modified_on" DATETIME ,
 "status" INTEGER  NOT NULL ,
+"dummy"  VARCHAR(100),
 PRIMARY KEY ("id")) UNLOAD PRIORITY 5 AUTO MERGE 
